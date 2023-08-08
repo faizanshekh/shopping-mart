@@ -184,6 +184,13 @@ header .col-md-6 {
 
 /* Responsive Styles */
 
+@media (min-width: 1600px) {
+	#home img {
+		width:100%;
+	}
+}
+   
+
 /* Media query for screens smaller than 768px (e.g., tablets and smartphones) */
 @media (max-width: 768px) {
     #heading .row {
